@@ -1,3 +1,27 @@
+# Bad-Bank_app
+Its called a bad bank as nothing is save in here.  whatever u put in here becomes mine.
+
+# deploys using AWS link
+
+#  features
+navbar hover on detailsresponsive feature and collapses on small screens.
+Create account using formik. 
+login success  display.
+deposit amount adds to the amount of balance
+withdraw reduces from the balance.
+All data  keeps record of the accounts.
+
+#  display pages in the app.
+links?
+
+# future improvements.
+ logout function
+ Money transfer
+ checking account page 
+ saving account page
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
