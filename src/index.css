@@ -34,11 +34,6 @@ form, table, tr, th, td, div, label{
   background-color: #8F94A6 !important;
 }
 
-.card-header {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #484E59;
-}
-
 .card-body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #E4E7F2;
@@ -48,8 +43,7 @@ form, table, tr, th, td, div, label{
 }
 
 .navbar {
-  background-color: #21262a;
-  box-shadow: 0 3px 8px #25323762;
+  background-color: #E4E7F2;
 }
 
 .nav-link.nav-link:popover {
@@ -69,6 +63,15 @@ form, table, tr, th, td, div, label{
 .nav-item:hover {
   background-color: #8d99ae6c;
   border-radius: 3px;
+}
+
+.navbar-nav {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-links {
+  display:flex;
 }
 
 .home-card {
@@ -172,4 +175,8 @@ form, table, tr, th, td, div, label{
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+button.btn {
+  width: 40%;
 }

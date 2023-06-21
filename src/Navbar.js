@@ -13,7 +13,7 @@ import "bootstrap/js/src/collapse.js";
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
         
         <button
@@ -29,7 +29,7 @@ import "bootstrap/js/src/collapse.js";
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-           
+           <div className="nav-logo">
             <NavLink
               style={navLinkStyles}
               title="Welcome to the the Bad Bank"
@@ -38,9 +38,9 @@ import "bootstrap/js/src/collapse.js";
             >
               Bad Bank
             </NavLink>
-          
+            </div>
 
-            
+            <div className="nav-links">
             <NavLink
               title="Create an account with us"
               style={navLinkStyles}
@@ -83,7 +83,7 @@ import "bootstrap/js/src/collapse.js";
             >
               All Data
             </NavLink>
-            
+            </div>
           </div>
         </div>
       </div>

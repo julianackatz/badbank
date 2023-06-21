@@ -11,7 +11,6 @@ export default function AllData() {
     <img class="page-img" src={money_icon} width="50" alt="all-data"/>
       <h5>ALL DATA</h5>
       <Card
-        header="Transactions to date"
         bgcolor="info"
         body={
           <table className="table"> 

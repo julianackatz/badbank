@@ -41,8 +41,7 @@ export default function CreateAccount() {
     <img class="page-img" src={account_icon} width="50" alt="account"/>
       <h5>CREATE ACCOUNT</h5>
       <Card
-        header="Create New Account"
-        bgcolor="secondary"
+     
         body={
           show ? (
             <form onSubmit={formik.handleSubmit}>
