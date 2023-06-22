@@ -29,14 +29,6 @@ const initialState = {
       balance: 1000,
       transactionsHistory: []
     },
-    {
-      name: "Arnold Palmer",
-      email: "palmer@hotmail.com",
-      password: "lemonade123",
-      balance: 6000,
-      transactionsHistory: []
-    },
-    
   ],
   currentUser: null,
   success: false,

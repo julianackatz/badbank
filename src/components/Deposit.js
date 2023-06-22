@@ -30,13 +30,10 @@ function Deposit(){
     let newMoney = `${ctx.users[lastUser].name} deposited: ${deposit}`;
     setShow(false);
   return (
-    // Initialize submissions as an empty array if it is undefined or null
     ctx.submissions ??= [],
   
-    // Push newMoney to the submissions array
     ctx.submissions.push(newMoney),
   
-    // Update the balance in the users array
     ctx.users[lastUser].balance = newAmount
   )}
 

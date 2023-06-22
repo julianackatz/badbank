@@ -17,7 +17,7 @@ export default function Spa() {
    
       <div>
         <NavBar/>        
-        <UserContext.Provider value={{users:[{name:'John Doe',email:'johndoe@gmail.com',password:'password123',balance:600}]}}>
+        <UserContext.Provider value={{users:[{name:'John Doe',email:'johndoe@gmail.com',password:'password123',balance:200}]}}>
           <div className="container" style={{padding: "20px"}}>
           <Routes>
           <Route path="/" element={<Home />} />

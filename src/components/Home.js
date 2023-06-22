@@ -11,7 +11,7 @@ function Home() {
             <img src={bank} className="img-fluid rounded-start" alt="..." />
           </div>
           <div className="col-sm 12 col-md-6">
-            <div className="home-card-inner">
+            <div className="card home-card-inner">
               <h5 className="card-title">Welcome to the Bad Bank</h5>
               <p className="card-text">For all your banking needs</p>
             </div>
