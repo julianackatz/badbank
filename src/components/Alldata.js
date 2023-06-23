@@ -19,7 +19,6 @@ export default function AllData() {
                 <th>Email</th>
                 <th>Name</th>
                 <th>Password</th>
-                <th>Balance</th>
               </tr>
             </thead>
             <tbody>
@@ -29,7 +28,6 @@ export default function AllData() {
                     <td>{element.email}</td>
                     <td>{element.name}</td>
                     <td>{element.password}</td>
-                    <td>{element.balance}</td>
                   </tr>
                 );
               })}

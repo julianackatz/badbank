@@ -11,7 +11,6 @@ const initialState = {
       name: "Abel",
       email: "abel@mit.edu",
       password: "secret",
-      balance: 100,
       transactionHistory: []
     },
   
@@ -19,14 +18,12 @@ const initialState = {
       name: "John Doe",
       email: "johndoe@gmail.com",
       password: "pasword123",
-      balance: 3000,
       transactionsHistory: []
     },
     {
       name: "Jane Doe",
       email: "jane@mit.edu",
       password: "secret890",
-      balance: 1000,
       transactionsHistory: []
     },
   ],

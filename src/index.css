@@ -74,6 +74,12 @@ form, table, tr, th, td, div, label{
   display:flex;
 }
 
+@media only screen and (max-width:1024px) {
+  .nav-links {
+    flex-direction: column;
+  }
+}
+
 .home-card {
   margin-top: 14vh;
 }

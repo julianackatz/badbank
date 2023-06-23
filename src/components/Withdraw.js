@@ -5,6 +5,7 @@ import React, {useContext, useState} from 'react';
 import withdraw_icon from "./withdraw_icon.png";
 
 
+
 function Withdraw(){
     const [withdraw, setWithdraw] = useState('');
     const [status, setStatus] = useState('');
