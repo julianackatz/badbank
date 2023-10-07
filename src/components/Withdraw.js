@@ -36,6 +36,7 @@ function Withdraw(){
       let deductedFunds = `${ctx.users[lastUser].name} withdrew: ${withdraw}`
       setShow(false)
       return ( ctx.users[lastUser].balance = newAmount, ctx.submissions.push(deductedFunds))
+      // eslint-disable-next-line
       return (
     
       // Initialize submissions as an empty array if it is undefined or null
